@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NameList" >
+
+    <item android:id="@+id/action_custom_phrase"
+        android:icon="@drawable/speak_messages"
+        android:title="@string/action_custom_phrase"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_add_name"
+        android:icon="@drawable/add_user"
+        android:title="@string/action_add_name"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_more_phrase"
+        android:icon="@drawable/select_language"
+        android:title="@string/action_more_phrase"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
